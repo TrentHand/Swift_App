@@ -10,9 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var theLabel: UILabel!
+    
+    var tapCount = 0
+    
+    @IBAction func buttonTapped(_ sender: AnyObject) {
+       theLabel.text = "Hello there!"
+        tapCount += 1
+        print(tapCount)
+        if tapCount >= 10 {
+            theLabel.text = "You've tapped the button 10 times"
+        }
+        
+    }
+
+//this is a comment.  I can comment a line by pressing the cmd+/ option
+ /*This
+ is
+ a
+ multiline
+ comment
+ */
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        theLabel.text = "Trent!"
     }
 
     override func didReceiveMemoryWarning() {
