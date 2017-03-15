@@ -1,27 +1,24 @@
-//: Playground - noun: a place where people can play
+5 + 8
 
-import UIKit
+2 - 7
 
-var str = "Hello, playground"
+4 * 12
 
-var age = 17
-//this is how you build a basic IF Statement
-if age >= 16 {
-    print("You can ride the ride")
-}
-else {
-    print("You cannot ride")
-}
-var name = "Trent"
-//strings with IF STATEMENTS
-if name == "Trent" {
-    print("We have the same name")
-}
+var a = 6
+var b = 3
 
-var birthyear = 1983
-if birthyear >= 2000 {
-    print("you were born in the 21st century")
-}
-else {
-    print("you were born in the 20th century")
-}
+a - b
+a * b
+
+100 / 21
+
+Double(5)/8
+
+var theLabel = ""
+
+Double("5")! + Double("5")!
+
+
+
+theLabel.text = Double(text1.text!) + Double(text2.text!)
+
